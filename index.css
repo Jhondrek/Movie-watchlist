@@ -112,7 +112,7 @@ header::before{
 .headerTextContainer a{
     color: white;
     text-decoration: none;
-    font-size: 0.55rem;
+    font-size: 0.8rem;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -120,7 +120,7 @@ header::before{
 
 h1{
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 
@@ -177,7 +177,7 @@ main{
     justify-content: center;
     box-sizing: border-box;
     background-color: #121212;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -186,19 +186,23 @@ main{
     display: flex;
     width: 80%;
     color: white;
-    padding-bottom: 0.8rem;
+    padding-bottom: 2rem;
     border-bottom: #2C2C2C 1px solid;
+    justify-content: center;
 }
 
 .movie-info-container{
     margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
 .movie-img{
     width: 30%;
     height: 45%;
-    max-width: 95px;
+    max-width: 150px;
     margin: auto 0px;
 }
 
@@ -208,13 +212,13 @@ main{
 }
 
 .title-evaluation-container h2{
-    font-size: 0.6rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 
 .star{
-    font-size: x-small;
+    font-size: 0.8rem;
     color: yellow;
 }
 
@@ -228,7 +232,7 @@ main{
 .evaluation-container p{
     margin: 0;
     padding: 0;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
 }
 
@@ -238,12 +242,12 @@ main{
 }
 
 .information-watchlist-add-container p{
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     margin-right: 0.3rem ;
 }
 
 .add-font{
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     background-color: white;
     color: #121212;
     border-radius: 50%;
@@ -262,14 +266,16 @@ main{
     padding: 0;
     border: none;
     background-color: #121212;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     color: white;
     cursor: pointer;
 }
 
 .movie-description{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     color: #A5A5A5;
+    max-width: 800px;
+    margin: 0;
 }
 
 .no-movie-found{
