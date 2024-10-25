@@ -60,7 +60,7 @@ header::before{
 }
 
 #movie-title-input, #search-movie-btn, .search-icon{
-    height: 1.8rem;
+    height: 2rem;
     box-sizing: border-box;
     
 }
@@ -74,8 +74,8 @@ header::before{
     align-items: center;
     justify-content:right;
     text-align: center;
-    font-size: 0.5rem;
-    padding-top: 0.7rem; ;
+    font-size: 0.7rem;
+    padding-top: 0.7rem;
 }
 
 #movie-title-input{
@@ -93,7 +93,7 @@ header::before{
     border-bottom-right-radius: 5px;
     cursor: pointer;
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
 }
 
 /* Header text container */
@@ -323,11 +323,23 @@ main{
 }
 
 @media (min-width:600px){
-    h1{
+
+    .headerTextContainer h1{
         font-size: 3rem
     }
 
     .headerTextContainer a{
+        font-size: 2rem;
+    }
+
+    .headerTextContainerWatch{
+        width: 70%;
+    }
+    .headerTextContainerWatch h1{
+        font-size: 3rem
+    }
+
+    .headerTextContainerWatch a{
         font-size: 2rem;
     }
 
