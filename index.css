@@ -5,8 +5,11 @@ html, body{
     box-sizing: border-box;
     font-family: "Inter", serif;
     background-color: #121212;
+     /* this one */
+     overflow-x: hidden;
 
 }
+
 
 h1, h2, h3, h4, h5{
     margin: 0;
@@ -322,6 +325,8 @@ main{
     font-size: 0.8rem;
 }
 
+
+
 @media (min-width:600px){
 
     .headerTextContainer h1{
@@ -399,5 +404,9 @@ main{
         margin-left: auto;
         display: block;
         padding: 0;
+    }
+
+    .no-movie-added p{
+        font-size: 1.5rem;
     }
 }
