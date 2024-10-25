@@ -284,11 +284,10 @@ main{
 .add-movies-font{
     background-color: white;
     border-radius: 50%;
-    padding: 0.2rem;
+    padding: 0.1rem;
     margin-right: 0.5rem;
     color:#121212;
     font-size: 1rem;
-    margin-top: 0.5rem;
 }
 
 .headerTextContainerWatch{
@@ -407,4 +406,11 @@ main{
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
+
+    .add-movies-font{
+        margin-top: 0.5rem;
+        padding: 0.2rem;
+
+    }
+    
 }
