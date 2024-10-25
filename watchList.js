@@ -24,7 +24,7 @@ function getLocalStorageMoviesIds(){
 
 
 function getMovieHtml(data){
-
+    if(data.poster != undefined){
     let movieHtml = `
     <div class="movie-container" >
         <img src="${data.Poster}" alt="${data.Title} movie poster" class="movie-img">
@@ -54,6 +54,7 @@ function getMovieHtml(data){
     </div>
     `
      return movieHtml
+    } return""
 }
 
 mainContainer.addEventListener("click", function(e){
@@ -68,6 +69,7 @@ mainContainer.addEventListener("click", function(e){
 function removeMovieFromWhatchList(movieId){
     localStorage.removeItem(movieId)
     if(localStorage.length === 0){
+        
         mainContainer.innerHTML = 
             `<div class="no-movie-added">
                 <p >Your watchlist is looking a little empty...</p>
