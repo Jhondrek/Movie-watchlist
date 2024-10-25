@@ -24,7 +24,7 @@ function getLocalStorageMoviesIds(){
 
 
 function getMovieHtml(data){
-    if(data.poster != undefined){
+    
     let movieHtml = `
     <div class="movie-container" >
         <img src="${data.Poster}" alt="${data.Title} movie poster" class="movie-img">
@@ -53,8 +53,7 @@ function getMovieHtml(data){
 
     </div>
     `
-     return movieHtml
-    } return""
+     
 }
 
 mainContainer.addEventListener("click", function(e){
