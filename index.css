@@ -278,6 +278,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .add-movies-font{
@@ -286,12 +287,8 @@ main{
     padding: 0.2rem;
     margin-right: 0.5rem;
     color:#121212;
-    font-size: 0.8rem;
-}
-
-.add-movies-container p{
-    color: white;
-    margin: 0;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
 
 .headerTextContainerWatch{
@@ -408,5 +405,6 @@ main{
 
     .no-movie-added p{
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 }
