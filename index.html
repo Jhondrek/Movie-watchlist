@@ -14,21 +14,21 @@
                 <h1>Find your film</h1> 
                 <a href="watchList.html">My watchlist</a>
             </div>
-            <div class="half-background">
-                <div class="HeaderInputContainer">
+            <div class="half-background" id="search-form">
+                <form class="HeaderInputContainer">
                     <label class="fa-solid fa-magnifying-glass search-icon" for="movie-title-input"></label>
                     <input type="text" id="movie-title-input">
                     <input type="submit" id="search-movie-btn" value="Search">
-                </div>
+                </form>
             </div>
     </header>
 
-    <main>
+    <main id="main-container">
 
-        <!-- <div class="main-starting-image-container">
+        <div class="main-starting-image-container">
             <i class="fa-solid fa-film fontawesome-movie"></i>
             <p>start exploring</p>
-        </div> -->
+        </div>
 
 <!--         
             <div class="movie-container">
@@ -58,11 +58,11 @@
 
             </div> -->
 
-            <div class="no-movie-found">
+            <!-- <div class="no-movie-found">
                 <p >Unable to find what you’re looking for. Please try another search.</p>
-            </div>
+            </div> -->
     </main>
 
-
+    <script src="index.js"></script>
 </body>
 </html>

@@ -67,20 +67,22 @@ header::before{
 
 .search-icon{
     width: 5vw;
-    background-color: #A5A5A5;
+    background-color: #4B4B4B;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     display: flex;
     align-items: center;
     justify-content:right;
+    text-align: center;
     font-size: 0.5rem;
+    padding-top: 0.7rem; ;
 }
 
 #movie-title-input{
     width: 55vw;
-    background-color: #A5A5A5;
+    background-color: #4B4B4B;
     border: none;
-    
+    color: #A5A5A5;
 }
 
 #search-movie-btn{
@@ -150,7 +152,7 @@ main{
     box-sizing: border-box;
     background-color: #121212;
     margin-top: 50px;
-
+    flex-direction: column;
 }
 
 .movie-container{
@@ -160,8 +162,8 @@ main{
     color: white;
     padding-bottom: 2rem;
     border-bottom: #2C2C2C 1px solid;
-    justify-content: center;
     max-width: 900px;
+    margin: 1rem 0rem;
 }
 
 .movie-info-container{
@@ -212,6 +214,7 @@ main{
 
 .information-watchlist-add-container{
     display: flex;
+    margin: 0.1rem 0rem;
 }
 
 .information-watchlist-add-container p{
