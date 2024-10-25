@@ -53,7 +53,7 @@ function getMovieHtml(data){
 
     </div>
     `
-     
+     return movieHtml
 }
 
 mainContainer.addEventListener("click", function(e){
