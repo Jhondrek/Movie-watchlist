@@ -215,6 +215,7 @@ main{
 .information-watchlist-add-container{
     display: flex;
     margin: 0.1rem 0rem;
+    align-items: center;
 }
 
 .information-watchlist-add-container p{
@@ -245,6 +246,9 @@ main{
     font-size: 0.7rem;
     color: white;
     cursor: pointer;
+    display: flex;
+    
+    justify-content: center;
 }
 
 .movie-description{
@@ -309,6 +313,15 @@ main{
     font-size: 1.5rem;
 }
 
+.remove-item{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    color:#121212;
+    font-size: 0.8rem;
+}
+
 @media (min-width:600px){
     h1{
         font-size: 3rem
@@ -368,5 +381,11 @@ main{
 
     .movie-description{
         font-size: 1rem;
+    }
+
+    .watchlist-container{
+        margin-left: auto;
+        display: block;
+        padding: 0;
     }
 }

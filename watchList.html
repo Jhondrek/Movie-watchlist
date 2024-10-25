@@ -7,23 +7,18 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f7bae20d3.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 <body>
     <header>
             <div class="headerTextContainerWatch">
                 <h1>My watchlist</h1> 
-                <a href="#">Search for movies</a>
+                <a href="index.html">Search for movies</a>
             </div>
-            <div class="half-background">
-                <div class="HeaderInputContainer">
-                    <label class="fa-solid fa-magnifying-glass search-icon" for="movie-title-input"></label>
-                    <input type="text" id="movie-title-input">
-                    <input type="submit" id="search-movie-btn" value="Search">
-                </div>
-            </div>
+            
     </header>
 
-    <main>
+    <main id="main-container">
 
             <div class="no-movie-added">
                 <p >Your watchlist is looking a little empty...</p>
@@ -35,6 +30,6 @@
 
     </main>
 
-
+<script type="module" src="watchList.js" ></script>
 </body>
 </html>
