@@ -60,7 +60,7 @@ header::before{
 }
 
 #movie-title-input, #search-movie-btn, .search-icon{
-    height: 1rem;
+    height: 1.8rem;
     box-sizing: border-box;
     
 }
@@ -112,7 +112,7 @@ header::before{
 .headerTextContainer a{
     color: white;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -128,48 +128,20 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .fontawesome-movie{
-    font-size: 4rem;
+    font-size: 5rem;
     color: #2E2E2F;
 }
 
 .main-starting-image-container p{
     color: #2E2E2F;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
-@media (min-width:481px){
-    h1{
-        font-size: 1.5rem
-    }
-
-    .headerTextContainer a{
-        font-size: 0.8rem;
-    }
-
-    .main-starting-image-container p, li{
-        font-size: 1.5rem;
-    }
-
-    #movie-title-input, #search-movie-btn, .search-icon{
-        height: 1.5rem;
-       
-        
-    }
-    .headerTextContainer{
-        width: 75%;
-    }
-
-    .search-icon{
-        width: 2.5vw;
-        justify-content:center;
-        font-size: 0.5rem;
-    }
-
-}
 
 main{
     display: flex;
@@ -189,6 +161,7 @@ main{
     padding-bottom: 2rem;
     border-bottom: #2C2C2C 1px solid;
     justify-content: center;
+    max-width: 900px;
 }
 
 .movie-info-container{
@@ -219,7 +192,7 @@ main{
 
 .star{
     font-size: 0.8rem;
-    color: yellow;
+    color: rgb(231, 231, 13);
 }
 
 .evaluation-container{
@@ -279,14 +252,14 @@ main{
 }
 
 .no-movie-found{
-    width: 60%;
+    width: 80%;
     margin-bottom: 125px;
 }
 
 .no-movie-added, .no-movie-found{
     color: #787878;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-top: 50px;
 }
@@ -300,11 +273,97 @@ main{
 .add-movies-font{
     background-color: white;
     border-radius: 50%;
-    padding: 0.08rem;
-    margin-right: 0.3rem;
-    color:#121212
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    color:#121212;
+    font-size: 0.8rem;
 }
 
 .add-movies-container p{
     color: white;
+    margin: 0;
+}
+
+.headerTextContainerWatch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.headerTextContainerWatch a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTextContainerWatch h1{
+    font-size: 1.5rem;
+}
+
+@media (min-width:600px){
+    h1{
+        font-size: 3rem
+    }
+
+    .headerTextContainer a{
+        font-size: 2rem;
+    }
+
+    .main-starting-image-container p, li{
+        font-size: 3rem;
+    }
+
+    #movie-title-input, #search-movie-btn, .search-icon{
+        height: 2.5rem;
+        font-size: 1.5rem;
+        
+    }
+    .headerTextContainer{
+        width: 70%;
+    }
+
+    .search-icon{
+        width: 2.5vw;
+        justify-content:center;
+        font-size: 1rem;
+        padding-left: 0.8em;
+    }
+
+    .title-evaluation-container h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .evaluation-container p{
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    .star{
+        font-size: 1.5rem;
+    }
+
+    .information-watchlist-add-container p{
+        font-size: 1.1rem;
+    }
+
+    .add-font{
+        font-size: 1.1rem;
+        margin-left:1rem;
+        padding: 0.2rem;
+    }
+
+    .watchlist-container button{
+        font-size: 1.1rem;
+    }
+
+    .movie-description{
+        font-size: 1rem;
+    }
 }
