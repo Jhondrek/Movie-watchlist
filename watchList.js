@@ -7,16 +7,18 @@ function getLocalStorageMoviesIds(){
     const moviesIdsArray= Object.values(localStorage)
     moviesIdsArray.forEach(id => {
 
-        fetch(`http://www.omdbapi.com/?apikey=b8a61dc6&i=${id}`)
-            .then( res => res.json())
-            .then( data => {
-                console.log(data)
-                moviesHtml += getMovieHtml(data)
-                console.log(moviesHtml)
-                mainContainer.innerHTML = moviesHtml
-            }
-            
-        )
+        if(id){
+            fetch(`http://www.omdbapi.com/?apikey=b8a61dc6&i=${id}`)
+                .then( res => res.json())
+                .then( data => {
+                    console.log(data)
+                    moviesHtml += getMovieHtml(data)
+                    console.log(moviesHtml)
+                    mainContainer.innerHTML = moviesHtml
+                }
+                
+            )
+        }
     })
 }
 

@@ -77,7 +77,9 @@ function getMovieHtml(data){
 
 
 function saveMovieToWatchList(movieId){
+    if(movieId){
     localStorage.setItem(movieId, movieId)
+    }
 }
 
 
