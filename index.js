@@ -15,6 +15,7 @@ searchForm.addEventListener("submit", function(e){
 
 })
 
+//If you click on watchlist or the + sing it will save the movie on the watchlist 
 mainContainer.addEventListener("click", function(e){
     if(e.target.tagName=== "BUTTON"){
         saveMovieToWatchList(e.target.id)
